@@ -46,14 +46,15 @@ h1{
 - Opacity -> changes opacity 
 - **Important:** to change background color, use body: and then background:
 - Font-family -> changes all fonts if places in  body.
-	- ```css button{
 
-                background: navy;
+```css
+button{
+	background: navy;
+	border : none;
+	color: red;
+}
+```
 
-                border: none;
 
-                color: red;
-
-            }```
-	- Changes the background of the button to navy, removes its border, and makes its text red.
+- Changes the background of the button to navy, removes its border, and makes its text red.
 - **Tip: Make button corners round**: border-radius
