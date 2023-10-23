@@ -3,20 +3,20 @@
      
      
      body{
-     background: black;
+     background: rgb(53, 47, 68);
      font-family: Arial, Helvetica, sans-serif;
      margin: 0;
      padding: 0;
     }
 
     header{
-        background: gray;
+        background: rgb(92, 84, 112);;
         margin: 0%;
         padding: 0.5%;
     }
 
      h1{ /*this chooses what we are targeting*/
-         color: rgb(97, 12, 159);
+         color: rgb(250, 240, 230);
          opacity: 1;
          position: relative;
          left: 42%;
@@ -26,17 +26,17 @@
 
      h2{ /*this chooses what we are targeting*/
         color: rgb(97, 12, 159);
-        opacity: 0.75;
+        opacity: 1;
     }
 
     p{ /*this chooses what we are targeting*/
         color: rgb(97, 12, 159);
-        opacity: 0.75;
+        opacity: 1;
     }
 
     li{ /*this chooses what we are targeting*/
         color: rgb(97, 12, 159);
-        opacity: 0.75;
+        opacity: 1;
     }
 
      button{
@@ -52,4 +52,4 @@
      padding: increases space around a div 
 
 
-    /*
+    */
