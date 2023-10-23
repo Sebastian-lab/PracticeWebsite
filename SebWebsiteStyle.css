@@ -1,14 +1,55 @@
+     
+     
+     
+     
      body{
-     background: rgb(16, 112, 207);
+     background: black;
      font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
     }
+
+    header{
+        background: gray;
+        margin: 0%;
+        padding: 0.5%;
+    }
+
      h1{ /*this chooses what we are targeting*/
-         color: rgb(19, 16, 216);
-         opacity: 0.75;
+         color: rgb(97, 12, 159);
+         opacity: 1;
+         position: relative;
+         left: 42%;
+         /*font-size: calc(75% + .75vw);*/
+         
      }
+
+     h2{ /*this chooses what we are targeting*/
+        color: rgb(97, 12, 159);
+        opacity: 0.75;
+    }
+
+    p{ /*this chooses what we are targeting*/
+        color: rgb(97, 12, 159);
+        opacity: 0.75;
+    }
+
+    li{ /*this chooses what we are targeting*/
+        color: rgb(97, 12, 159);
+        opacity: 0.75;
+    }
+
      button{
         background: rgb(216, 12, 12);
         width: 1.5cm;
         color: rgb(44, 31, 31);
         border-radius: 25%;
      }
+
+
+    /*
+     margin: adds space around a div can use one, two, or four values
+     padding: increases space around a div 
+
+
+    /*
