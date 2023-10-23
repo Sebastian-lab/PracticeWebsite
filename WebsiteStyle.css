@@ -1,0 +1,14 @@
+     body{
+     background: rgb(16, 112, 207);
+     font-family: Arial, Helvetica, sans-serif;
+    }
+     h1{ /*this chooses what we are targeting*/
+         color: rgb(19, 16, 216);
+         opacity: 0.75;
+     }
+     button{
+        background: rgb(216, 12, 12);
+        width: 1.5cm;
+        color: rgb(44, 31, 31);
+        border-radius: 25%;
+     }
