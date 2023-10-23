@@ -39,11 +39,25 @@
         opacity: 1;
     }
 
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+
+     /* .GitHub{
+        background: rgb(216, 12, 12);
+        width: 1.5cm;
+        color: rgb(44, 31, 31);
+        border-radius: 25%;
+        
+     } */
+
      button{
         background: rgb(216, 12, 12);
         width: 1.5cm;
         color: rgb(44, 31, 31);
         border-radius: 25%;
+        margin: auto;
      }
 
 
