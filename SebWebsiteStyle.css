@@ -10,6 +10,8 @@
     }
 
     header{
+        /* width: 100%;
+        height: 100vh; */
         background: rgb(92, 84, 112);;
         margin: 0%;
         padding: 0.5%;
@@ -18,14 +20,21 @@
      h1{ /*this chooses what we are targeting*/
          color: rgb(250, 240, 230);
          opacity: 1;
-         position: relative;
-         left: 42%;
+         text-align: center;
+         /* left: 42%; */
          /*font-size: calc(75% + .75vw);*/
          
      }
 
+     #Contact{
+        color: rgb(250, 240, 230);
+         opacity: 1;
+         text-align: center;
+         /* left: 42%; */
+     }
+
      h2{ /*this chooses what we are targeting*/
-        color: rgb(97, 12, 159);
+        color: rgb(7, 7, 7);
         opacity: 1;
     }
 
@@ -60,6 +69,14 @@
         margin: auto;
      }
 
+
+     button{
+        background: rgb(216, 12, 12);
+        width: 1.5cm;
+        color: rgb(44, 31, 31);
+        border-radius: 25%;
+        margin: auto;
+     }
 
     /*
      margin: adds space around a div can use one, two, or four values
