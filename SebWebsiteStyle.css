@@ -84,15 +84,47 @@
         border-radius: 25%;
         
      } */
+     /* form{
+        display: flex;
+        flex-direction: row; 
+     } */
 
-     button{
+     /* button{
         position:bottom;
         background: rgb(216, 12, 12);
         width: 1.5cm;
         color: rgb(44, 31, 31);
         border-radius: 25%;
         margin: auto;
-     }
+     } */
+
+    
+     .btn-group button {
+        background-color: #04AA6D; /* Green background */
+        border: 1px solid green; /* Green border */
+        color: white; /* White text */
+        padding: 10px 50px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        
+      }
+      
+      .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #3e8e41;
+      }
+    
 
     /*
      margin: adds space around a div can use one, two, or four values
